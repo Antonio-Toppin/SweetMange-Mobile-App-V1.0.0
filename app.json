@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "name": "SweetManage",
+    "slug": "sweetmanagev1",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "609429e7-15dc-421a-b37f-4ba4dd60c517"
+      }
+    },
+    "owner": "antonio06",
+    "android": {
+      "package": "com.antonio06.sweetmanagev1"
+    }
+  }
+}
