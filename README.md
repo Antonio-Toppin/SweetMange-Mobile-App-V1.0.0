@@ -16,6 +16,24 @@ To run this project locally:
    ```
 3. Follow the instructions in the terminal to run the app on an emulator, simulator, or physical device using the Expo Go app.
 
+## 📁 Using the Entire App in a New Project
+
+To use this app in your own Expo project:
+
+1. Create a new Expo project:
+   ```sh
+   npx create-expo-app my-new-project
+   ```
+2. Copy the `app` folder from this repository into your new project directory, replacing the existing `app` folder if present.
+3. In your new project directory, install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npx expo start
+   ```
+
 # Expo Router Example
 
 Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
